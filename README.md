@@ -2,7 +2,7 @@
 
 An interactive data analysis app built using [Preswald](https://preswald.com), analyzing key trends in Formula 1 history from 1950 to 2009.
 
-## 💡 What It Does
+## What It Does
 - Shows top 10 drivers by race wins (with SQL query)
 - Interactive slider to filter drivers by wins
 - Highlights top constructors and race circuits
