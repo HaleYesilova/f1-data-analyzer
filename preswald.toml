@@ -1,0 +1,36 @@
+[project]
+title = "Formula 1 Championship Analyzer"
+version = "1.0.0"
+port = 8501
+slug = "f1-analyzer-hale"         
+entrypoint = "hello.py"           
+
+[branding]
+name = "F1 Data Analyzer"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#E10600"        
+
+[data.results_csv]
+type = "csv"
+path = "data/results.csv"
+
+[data.drivers_csv]
+type = "csv"
+path = "data/drivers.csv"
+
+[data.constructors_csv]
+type = "csv"
+path = "data/constructors.csv"
+
+[data.races_csv]
+type = "csv"
+path = "data/races.csv"
+
+[data.circuits_csv]
+type = "csv"
+path = "data/circuits.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
